@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+#menu, #cart {
+    width: 45%;
+}
+#menu ul, #cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+#menu li, #cart li {
+    background-color: #fff;
+    margin: 0.5em 0;
+    padding: 1em;
+}
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+}
